@@ -196,7 +196,7 @@ video {
 /* Header Button */
 .header-button span,
 .wsmenu > .wsmenu-list > li.header-btn a {
-  background-color: #dd3333;
+  background-color:	#FF8C00;
   color: #fff!important;
   line-height: 30px;
   margin-top: 15px;
@@ -242,7 +242,7 @@ video {
 }
 
 .wsmenu > .wsmenu-list > li.header-btn a:hover {
-  background-color: #0e8eab;
+  background-color: #191970;
   color: #fff!important;
 }
 
