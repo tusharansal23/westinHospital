@@ -2333,6 +2333,7 @@
     }
     .wsmobileheader .smllogo img{
         height: 100% !important;
+        margin-right: 20px;
     }
     .wsanimated-arrow {
         padding: 14px 28px 14px 0px;
