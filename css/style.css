@@ -745,8 +745,8 @@ body {
     background-color: #89be19;
 }
 
-.bg-remedy {
-    background-color: #2272ad;
+.bg-Westin {
+    background-color: #191970;
 }
 
 .bg-red {
@@ -3006,8 +3006,8 @@ p.header-widget-phone {
 }
 
 .abox-4-table.blue-table {
-    background-color: #2272ad;
-    border: 1px solid #2272ad;
+    background-color: #191970;
+    border: 1px solid #191970;
     color: #fff;
     box-shadow: none;
 }
@@ -3157,7 +3157,7 @@ td.text-right {
 .sbox-2:hover,
 .sbox-7:hover,
 .bg-lightgrey .sbox-7:hover {
-    /* background-color: #2272ad; */
+    /* background-color: #191970; */
     /* border: 1px solid #f5f5f5; */
     -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
@@ -3897,8 +3897,8 @@ margin-bottom: 40px; */
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active:hover {
-    background-color: #2272ad;
-    border-color: #2272ad;
+    background-color: #191970;
+    border-color: #191970;
     color: #fff;
 }
 
@@ -4393,7 +4393,7 @@ margin-bottom: 40px; */
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(34, 114, 173, 0.85);
+    background: #191970;
     -webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
     -o-transition: all 400ms ease-in-out;
@@ -7010,7 +7010,7 @@ ul.terms-list li:last-child {
 }
 
 #scrollUp:hover {
-    background-color: #2272ad;
+    background-color: #191970;
 }
 
 nav a#pull {
@@ -7155,7 +7155,7 @@ STYLE CHANGER
 
 .health-imges img {
     width: 100%;
-    border: 1px solid #2272ad;
+    border: 1px solid #191970;
 }
 
 .health-content-1 {
@@ -7419,7 +7419,7 @@ p.p-date {
     display: inline-block;
     padding: 3px 12px;
     border-radius: 2px;
-    color: #2272ad;
+    color: #191970;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -7505,7 +7505,7 @@ p.banner-p {
 
 .facili-one .facility h6 {
     margin-top: 15px;
-    color: #2272ad;
+    color: #191970;
 }
 
 .facili-two .facility h6 {
@@ -7515,7 +7515,7 @@ p.banner-p {
 
 .facili-three .facility h6 {
     margin-top: 15px;
-    color: #2272ad;
+    color: #191970;
 }
 
 .facili-four .facility h6 {
@@ -7581,7 +7581,7 @@ li.active a {
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    background-color: #2272ad;
+    background-color: #191970;
     ;
     border-radius: 4px;
 }
@@ -7589,7 +7589,7 @@ li.active a {
 .nav-pills .nav-link.active,
 .nav-pills .nav-link.active:hover {
     background-color: #fff;
-    border-color: #2272ad;
+    border-color: #191970;
     color: #000;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -7606,14 +7606,14 @@ li.active a {
 
 a.view-info-doc {
     text-decoration: none;
-    border: 1px solid #2272ad;
+    border: 1px solid #191970;
     ;
     padding: 5px 7px;
     display: inline-block;
     border-radius: 3px;
     margin-top: 6px;
     font-size: 14px;
-    background-color: #2272ad;
+    background-color: #191970;
     ;
     color: #fff;
     font-weight: 500;
@@ -7622,7 +7622,7 @@ a.view-info-doc {
 
 a.view-info-doc:hover {
     background-color: transparent;
-    color: #2272ad;
+    color: #191970;
 }
 
 .modal-dialog {
@@ -7816,5 +7816,5 @@ a.view-info-doc:hover {
 
 .main-banners .home-banners .owl-dots .owl-dot.active span,
 .main-banners .home-banners .owl-dots .owl-dot:hover span {
-    background: #2272ad;
+    background: #191970;
 }

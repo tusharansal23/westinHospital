@@ -1491,10 +1491,10 @@ video {
 }
 
 .color-primary{
-  color: #2272ad;
+  color: #191970;
 }
 .color-secondary{
-  color: #dd3333;
+  color: #FF8C00;
 }
 @media only screen and (max-width:575px) {
 .wsmenu > .wsmenu-list > li > a{
