@@ -5969,7 +5969,9 @@ p.footer-copyright span {
 .footer.bg-image p.footer-copyright span {
     color: #fff;
 }
-
+.footer-copyright {
+    color: #fff;
+}
 
 /*------------------------------------------*/
 
@@ -6195,6 +6197,7 @@ p.footer-copyright span {
 /*------------------------------------------*/
 
 .bottom-footer {
+    background: #191970;
     border-top: 1px solid #ddd;
     margin-top: 0px;
     padding-top: 25px;
@@ -7818,3 +7821,18 @@ a.view-info-doc:hover {
 .main-banners .home-banners .owl-dots .owl-dot:hover span {
     background: #191970;
 }
+
+/* Add padding if the viewport width is 992px or greater */
+@media (min-width: 992px) {
+    .responsive-padding {
+      padding-left: 15%; /* Adjust padding value as needed */
+    }
+  }
+  
+  /* Remove padding if the viewport width is less than 992px */
+  @media (max-width: 991.98px) {
+    .responsive-padding {
+      padding-left: 15px;
+    }
+  }
+  
