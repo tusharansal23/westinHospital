@@ -4322,6 +4322,11 @@ margin-bottom: 40px; */
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
+.no-pad-strict {
+    text-align: left !important;
+    padding: 0px !important;
+    background-color: transparent !important;
+}
 
 
 /*------------------------------------------*/
