@@ -113,6 +113,7 @@ video {
   -o-transition: all 450ms ease-in-out;
   -ms-transition: all 450ms ease-in-out;
   transition: all 450ms ease-in-out; 
+  padding-top: 15px;
 }
 
 .wsmainwp {
@@ -180,7 +181,7 @@ video {
 
 .wsmenu > .wsmenu-list > li > a {
   display: block;
-  padding: 10px 25px 10px 5px;
+  padding: 20px 25px 20px 5px;
   line-height: 50px;
   text-decoration: none;
   position: relative;
@@ -276,7 +277,7 @@ video {
   margin: 0 0 0 14px;
   position: absolute;
   text-align: right;
-  top: 34px;
+  top: 41px;
   width: 0;
 }
 
