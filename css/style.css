@@ -1,12 +1,9 @@
 /*
 Template Name: MedService - Medical & Medical Health Landing Page Template
-Theme URL: https://themeforest.net/user/jthemes
 Description: MedService - Medical & Medical Health Landing Page Template
-Author: Jthemes
-Author URL: https://themeforest.net/user/jthemes
+Author: Tushar Ansal
 Version: 1.0.0
-Tags: Responsive, HTML5 Template, Jthemes, One Page, Landing, Medical, Health, Healthcare, Doctor, Clinic, Care,
-Hospital
+Tags: Responsive , One Page, Landing, Medical, Health, Healthcare, Doctor, Clinic, Care, Hospital
 */
 
 
@@ -4347,7 +4344,7 @@ margin-bottom: 40px; */
 
 .doctor-meta span {
     display: block;
-    1color: #888;
+    color: #888;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -7843,4 +7840,12 @@ a.view-info-doc:hover {
   .wsmenu > .wsmenu-list > li.header-btn{
       margin-top: 5px;
   }
+  .p-10-in-px {
+      padding: 10px;
+  }
+  .promoters-height {
+    height: 200px;
+  }
+  
+
   
