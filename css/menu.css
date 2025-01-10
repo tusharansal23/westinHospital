@@ -1222,6 +1222,8 @@ video {
     display: inline-block;
     height: 100% !important;
     /* margin-top: 12px; */
+    margin-left: 65px;
+    float: left;
   }
 
   /* Mobile Search Bar*/
