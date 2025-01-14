@@ -3204,8 +3204,106 @@ td.text-right {
     max-height: 330px;
 }
 
+.prom-box {
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0 8px 40px;
+    padding: 14px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.8s ease;
+    height: 370px;
+    /* overflow-y: auto; */
+    scrollbar-width: thin;
+    /* max-height: 330px; */
+}
+.align-center {
+    height: 320px;
+    align-items: center;
+}
+.align-item-center {
+    align-items: center;
+}
+.rating {
+    padding-right: 4px;
+}
+.color-white {
+    color: #fff;
+}
+.border-none {
+    border: none;
+}
+.star-rating {
+    display: inline-block;
+    position: relative;
+    font-size: 24px; /* Adjust size as needed */
+    line-height: 1;
+}
+
+.stars {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap; /* Ensure stars stay on one line */
+}
+
+.stars .filled {
+    color: #ffc107; /* Yellow for filled stars */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Default to 0 width, dynamically adjusted */
+    overflow: hidden;
+    z-index: 2; /* Ensure it overlaps empty stars */
+}
+
+.stars .empty {
+    color: #ddd; /* Gray for empty stars */
+    z-index: 1; /* Background layer */
+}
+.consultation {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.check-icon-span {
+    width: 30px;
+}
+.check-icon-p {
+    font-weight: 500;
+    color: #555;
+    margin: 0 !important;
+    font-size: 0.8rem;
+}
+@media (max-width: 768px) {
+    .prom-box {
+        height: 450px; /* Adjust padding for smaller screens */
+    }
+
+    .align-center {
+        height: 400px;
+        /* padding: 10px; */
+    }
+
+    .promoters-height {
+        height: 300px !important; /* Increase image height */
+    }
+
+    /* .prom-text-box {
+        padding: 20px; 
+    } */
+}
+.check-icon-color {
+    color: #00a9ed;
+}
 .sbox-3::-webkit-scrollbar {
     width: 5px;
+}
+.mt-neg-60-px {
+    margin-top: -60px;
 }
 
 .sbox-3::-webkit-scrollbar-track {
@@ -7314,6 +7412,11 @@ padding: 15px;
     height: 100%;
     position: relative;
 }
+.prom-text-box {
+    background-color: #191970;
+    width: 90%;
+    height: 30%;
+}
 
 .sbox-3 {
     z-index: 1;
@@ -7844,7 +7947,7 @@ a.view-info-doc:hover {
       padding: 10px;
   }
   .promoters-height {
-    height: 200px;
+    height: 230px;
   }
   
 
