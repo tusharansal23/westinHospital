@@ -3289,7 +3289,10 @@ td.text-right {
     }
 
     .promoters-height {
-        height: 300px !important; /* Increase image height */
+        /* height: 300px !important; */
+        max-height: 300px; /* Set a maximum height if needed */
+    height: auto; /* Prevents stretching */
+    object-fit: cover;
     }
 
     /* .prom-text-box {
@@ -7946,9 +7949,10 @@ a.view-info-doc:hover {
   .p-10-in-px {
       padding: 10px;
   }
-  .promoters-height {
-    height: 230px;
-  }
   
-
+  .card-img-top {
+    width: 100%; /* Ensures the image fits the container's width */
+    height: 230px; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image is cropped if necessary, without stretching */
+}
   
